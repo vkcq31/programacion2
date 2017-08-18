@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="500.0" style="-fx-background-color: #992834;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ventana1">
+   <children>
+
+      <Button fx:id="btnPantallahombre" layoutX="32.0" layoutY="385.0" mnemonicParsing="false" onAction="#pantallahombre" prefHeight="51.0" prefWidth="198.0" style="-fx-background-color: #983723;" text="Tienda de hombre">
+         <font>
+            <Font name="Copperplate Gothic Light" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.5388349514563107" endY="0.33495145631067963" startX="0.20873786407766992" startY="0.7087378640776699">
+               <stops>
+                  <Stop color="#da7107" />
+                  <Stop color="#e82727" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="btnPantallamujer" layoutX="276.0" layoutY="385.0" mnemonicParsing="false" onAction="#pantallamujer" prefHeight="51.0" prefWidth="198.0" style="-fx-background-color: #983723;" text="Tienda de mujer" textAlignment="CENTER">
+         <font>
+            <Font name="Copperplate Gothic Light" size="17.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.5388349514563107" endY="0.33495145631067963" startX="0.20873786407766992" startY="0.7087378640776699">
+               <stops>
+                  <Stop color="#da7107" />
+                  <Stop color="#e82727" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="91.0" layoutY="52.0" prefHeight="80.0" prefWidth="333.0" text=" Freedom Boutique" textAlignment="CENTER">
+         <font>
+            <Font name="Edwardian Script ITC" size="56.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" focusAngle="51.34" radius="0.17073170731707316">
+               <stops>
+                  <Stop color="#da7107" />
+                  <Stop color="#da7107" offset="0.007246376811594203" />
+                  <Stop color="#da7107" offset="0.007246376811594203" />
+                  <Stop color="#e82727" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="240.0" fitWidth="240.0" layoutX="282.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@m2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="240.0" fitWidth="200.0" layoutX="34.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@m1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="142.0" fitWidth="187.0" layoutX="-2.0" layoutY="-1.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e1.png" />
+         </image>
+         <effect>
+            <Shadow blurType="GAUSSIAN" color="#eb0e0eb2" height="1.0" radius="0.0" width="0.0">
+               <input>
+                  <Glow level="0.41" />
+               </input>
+            </Shadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="171.0" layoutX="329.0" layoutY="435.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e2.png" />
+         </image>
+         <effect>
+            <Shadow blurType="GAUSSIAN" color="#cc0c0cdf" height="1.0" radius="0.0" width="0.0">
+               <input>
+                  <Glow level="0.41" />
+               </input>
+            </Shadow>
+         </effect>
+      </ImageView>
+   </children>
+</Pane>
